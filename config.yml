@@ -16,7 +16,7 @@ template:
 before:
   - type: createLabel
     name: help
-    color: ff0000
+    color: ffffff
 
 # Steps for the course
 # A list of steps that take the learner through the course
