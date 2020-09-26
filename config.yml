@@ -14,8 +14,9 @@ template:
 # Actions to take place after the learner registers, but before they start interacting with their repo
 
 before:
-  - type: respond
-    with: 01_first-response.md
+  - type: createLabel
+    name: help
+    color: ff0000
 
 # Steps for the course
 # A list of steps that take the learner through the course
